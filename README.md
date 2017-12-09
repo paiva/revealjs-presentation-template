@@ -6,6 +6,4 @@ which was given in June 2016. Original template is [here](https://github.com/pri
 
 
 Todos:
-* Slide White border
 * Align left
-* Change font

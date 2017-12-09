@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/night.css">
+  <link rel="stylesheet" href="plugin/highlight/style/monokai-sublime.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <meta charset="utf-8"/>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ****************************** -->
+
+      <section id="top">
+      <section id="title">
+        <h1>Presentation Title</h1>
+        <h3>Your Name</h3>
+        <h5>Conference Name<br>Date</h5>
+      </section>
+      </section>
+
+      <!-- ****************************** -->
+
+      <section id="overview">
+        <h2>Overview</h2>
+        <hr>
+        <ul>
+          <li>Topic 1</li>
+          <li>Topic 2
+            <ul>
+              <li>Sub-Topic 1</li>
+              <li>Sub-Topic 2</li>
+              <li>Sub-Topic 3</li>
+            </ul>
+          </li>
+          <li>Topic 3</li>
+        </ul>
+      </section>
+
+      <!-- ############################## -->
+
+      <section id="blankslide">
+      </section>
+
+      <!-- ############################## -->
+
+      <section id="topic1">
+        <h2>Topic 1</h2>
+        <hr>
+        This is a <strong>strong</strong> statment:
+        <p>
+        <ul>
+          <li>this is <em>em</em></li>
+          <li>this is  <i>italics</i></li>
+        </ul>
+      </section>
+
+      <!-- ****************************** -->
+
+      <section id="topic2">
+        <h2>Topic 2: An Image</h2>
+        <hr>
+        <img src="images/neuro_logo.png" width="40%" height="40%">
+      </section>
+
+      <!-- ****************************** -->
+
+      <section id="code">
+        <h2>Code Example</h2>
+        <hr>
+        Some Script <em>example.py</em>
+    <pre class="transp">
+    <code class="python" data-trim>
+      #!/usr/bin/python
+
+      float   = 0.0
+      counter = 0
+
+      print("Here I am")
+    </code>
+    </pre>
+      <p>Sample unix commands running in the terminal:</p>
+      <pre>
+      <em>$</em> python example.py
+      Here I am
+      </pre>
+      </section>
+
+      <!-- ****************************** -->
+
+      <section id="topic3">
+        <h2>Topic 3</h2>
+        <hr>
+
+        Here is another sentence with a <strong>strong</strong> statment.
+        <p class="fragment">Point 1.</p>
+        <p class="fragment">Point 2.</p>
+        <p class="fragment">Point 3.</p>
+      </section>
+
+      <!-- ****************************** -->
+
+      <section id="end">
+        <h2>The End</h2>
+
+        Thank you
+      </section>
+
+      <!-- ****************************** -->
+
+    </div>
+  </div>
+
+  <!-- Main reveal.js setup -->
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize(
+    { slideNumber: true, history: true }
+    );
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+
+</html>

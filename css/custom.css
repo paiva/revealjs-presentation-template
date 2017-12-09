@@ -1,0 +1,50 @@
+/* Headers */
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5 {
+  color: #ffffff;
+}
+
+/* Text styles: em, strong, b, i */
+
+.reveal em {
+  color: yellow;
+  font-style: normal; /* yes please! */
+}
+.reveal strong {
+  color: #0ff;  /* funny, I'm using RGB with only three digits today */
+}
+.reveal b {
+  color: #00f;
+}
+.reveal i {
+  color: #f00;
+}
+
+/* Misc */
+
+.reveal section img {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.reveal pre {
+  background: #033;
+  padding: 0.2em 0.5em 0.3em 0.5em;
+}
+.reveal .cell {
+  display: table-cell;
+}
+.reveal th {
+  color: #0aa;
+}
+.reveal .transp {
+  background-color: transparent;
+}
+
+.reveal .smallcontent tr td {
+  font-size: 70%;
+}

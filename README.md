@@ -12,7 +12,5 @@ which was given in June 2016. Original template is [here](https://github.com/pri
 * `<b></b>` statements have html code `#2200FF` (blue)
 * Fuchsia has html code `#FF2F92` (fuchsia)
 * Green has html code `#00F900` (green)
+* Orange has html code `#FF9300` (orange)
 
-
-Todos:
-* Align left
